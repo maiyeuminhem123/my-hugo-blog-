@@ -1,4 +1,4 @@
-baseurl = "https://yourblog.netlify.app/"
+baseurl = "https://maiyeuminhem123.github.io/my-hugo-blog-/"
 languageCode = "vi"
 theme = "hugo-theme-stack"
 title = "Blog Lập Trình Java & JavaScript"

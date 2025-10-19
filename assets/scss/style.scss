@@ -4,25 +4,25 @@
  * override specific rules.
  */
 
-@import "../../themes/stack/assets/scss/breakpoints.scss";
-@import "../../themes/stack/assets/scss/variables.scss";
-@import "../../themes/stack/assets/scss/grid.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/breakpoints.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/variables.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/grid.scss";
 
-@import "../../themes/stack/assets/scss/external/normalize.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/external/normalize.scss";
 
-@import "../../themes/stack/assets/scss/partials/menu.scss";
-@import "../../themes/stack/assets/scss/partials/article.scss";
-@import "../../themes/stack/assets/scss/partials/widgets.scss";
-@import "../../themes/stack/assets/scss/partials/footer.scss";
-@import "../../themes/stack/assets/scss/partials/pagination.scss";
-@import "../../themes/stack/assets/scss/partials/sidebar.scss";
-@import "../../themes/stack/assets/scss/partials/base.scss";
-@import "../../themes/stack/assets/scss/partials/layout/article.scss";
-@import "../../themes/stack/assets/scss/partials/layout/list.scss";
-@import "../../themes/stack/assets/scss/partials/layout/404.scss";
-@import "../../themes/stack/assets/scss/partials/layout/search.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/menu.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/article.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/widgets.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/footer.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/pagination.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/sidebar.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/base.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/layout/article.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/layout/list.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/layout/404.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/partials/layout/search.scss";
 
-@import "../../themes/stack/assets/scss/general.scss";
+@import "../../themes/hugo-theme-stack/assets/scss/general.scss";
 
 /* Finally import project-specific overrides */
 @import "./_custom.scss";

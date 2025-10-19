@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ar/categories/</loc>
+    <loc>https://maiyeuminhem123.github.io/my-hugo-blog-/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/categories/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/categories/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/ar/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/tags/</loc>
+    <loc>https://maiyeuminhem123.github.io/my-hugo-blog-/ar/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/tags/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/tags/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/ar/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/</loc>
+    <loc>https://maiyeuminhem123.github.io/my-hugo-blog-/ar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="https://maiyeuminhem123.github.io/my-hugo-blog-/ar/"
                 />
   </url>
 </urlset>

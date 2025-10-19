@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Java on Blog Lập Trình Java &amp; JavaScript</title>
-        <link>http://localhost:1313/categories/java/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/categories/java/</link>
         <description>Recent content in Java on Blog Lập Trình Java &amp; JavaScript</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>vi</language>
         <copyright>Nguyễn Văn Thuận</copyright>
-        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/java/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://maiyeuminhem123.github.io/my-hugo-blog-/categories/java/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Giới thiệu ngôn ngữ Java</title>
-        <link>http://localhost:1313/p/gi%E1%BB%9Bi-thi%E1%BB%87u-ng%C3%B4n-ng%E1%BB%AF-java/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/gi%E1%BB%9Bi-thi%E1%BB%87u-ng%C3%B4n-ng%E1%BB%AF-java/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/gi%E1%BB%9Bi-thi%E1%BB%87u-ng%C3%B4n-ng%E1%BB%AF-java/</guid>
-        <description>&lt;img src="http://localhost:1313/images/featured-1.svg" alt="Featured image of post Giới thiệu ngôn ngữ Java" /&gt;&lt;h2 id=&#34;giới-thiệu-ngôn-ngữ-lập-trình-java&#34;&gt;Giới thiệu ngôn ngữ lập trình Java
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/gi%E1%BB%9Bi-thi%E1%BB%87u-ng%C3%B4n-ng%E1%BB%AF-java/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/images/featured-1.svg" alt="Featured image of post Giới thiệu ngôn ngữ Java" /&gt;&lt;h2 id=&#34;giới-thiệu-ngôn-ngữ-lập-trình-java&#34;&gt;Giới thiệu ngôn ngữ lập trình Java
 &lt;/h2&gt;&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng mạnh mẽ và phổ biến, được phát triển bởi &lt;strong&gt;James Gosling&lt;/strong&gt; và đội ngũ tại Sun Microsystems vào năm 1995. Java nổi bật với khẩu hiệu &lt;strong&gt;&amp;ldquo;Write Once, Run Anywhere&amp;rdquo;&lt;/strong&gt; (WORA) - Viết một lần, chạy mọi nơi - nhờ khả năng chạy trên nhiều nền tảng khác nhau thông qua máy ảo Java (JVM).&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 Fun Fact:&lt;/strong&gt; Java ban đầu được đặt tên là &amp;ldquo;Oak&amp;rdquo; (Cây sồi), nhưng sau đó đổi thành &amp;ldquo;Java&amp;rdquo; vì tên này đã được đăng ký bởi một công ty khác.&lt;/p&gt;
@@ -191,11 +191,11 @@
         </item>
         <item>
         <title>Hello World và Cách biên dịch trong Java</title>
-        <link>http://localhost:1313/p/hello-world-v%C3%A0-c%C3%A1ch-bi%C3%AAn-d%E1%BB%8Bch-trong-java/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/hello-world-v%C3%A0-c%C3%A1ch-bi%C3%AAn-d%E1%BB%8Bch-trong-java/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/hello-world-v%C3%A0-c%C3%A1ch-bi%C3%AAn-d%E1%BB%8Bch-trong-java/</guid>
-        <description>&lt;img src="http://localhost:1313/images/featured-2.svg" alt="Featured image of post Hello World và Cách biên dịch trong Java" /&gt;&lt;h2 id=&#34;viết-chương-trình-hello-world-với-java&#34;&gt;Viết chương trình Hello World với Java
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/hello-world-v%C3%A0-c%C3%A1ch-bi%C3%AAn-d%E1%BB%8Bch-trong-java/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/images/featured-2.svg" alt="Featured image of post Hello World và Cách biên dịch trong Java" /&gt;&lt;h2 id=&#34;viết-chương-trình-hello-world-với-java&#34;&gt;Viết chương trình Hello World với Java
 &lt;/h2&gt;&lt;p&gt;Chương trình &lt;strong&gt;Hello World&lt;/strong&gt; là ví dụ kinh điển và đơn giản nhất để bắt đầu với bất kỳ ngôn ngữ lập trình nào. Trong Java, đây là cách để bạn làm quen với cú pháp cơ bản và quy trình biên dịch.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 Mục tiêu:&lt;/strong&gt; Tạo chương trình Java đầu tiên, hiểu cấu trúc cơ bản và cách biên dịch&lt;/p&gt;
@@ -663,11 +663,11 @@
         </item>
         <item>
         <title>Kiểu dữ liệu cơ bản trong Java</title>
-        <link>http://localhost:1313/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-c%C6%A1-b%E1%BA%A3n-trong-java/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-c%C6%A1-b%E1%BA%A3n-trong-java/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-c%C6%A1-b%E1%BA%A3n-trong-java/</guid>
-        <description>&lt;img src="http://localhost:1313/images/featured-3.svg" alt="Featured image of post Kiểu dữ liệu cơ bản trong Java" /&gt;&lt;h2 id=&#34;các-kiểu-dữ-liệu-cơ-bản-trong-java&#34;&gt;Các kiểu dữ liệu cơ bản trong Java
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-c%C6%A1-b%E1%BA%A3n-trong-java/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/images/featured-3.svg" alt="Featured image of post Kiểu dữ liệu cơ bản trong Java" /&gt;&lt;h2 id=&#34;các-kiểu-dữ-liệu-cơ-bản-trong-java&#34;&gt;Các kiểu dữ liệu cơ bản trong Java
 &lt;/h2&gt;&lt;p&gt;Java hỗ trợ nhiều kiểu dữ liệu cơ bản (primitive types):&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -746,11 +746,11 @@
         </item>
         <item>
         <title>Lập trình hướng đối tượng (OOP) trong Java</title>
-        <link>http://localhost:1313/p/l%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-oop-trong-java/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/l%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-oop-trong-java/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/l%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-oop-trong-java/</guid>
-        <description>&lt;img src="http://localhost:1313/images/featured-4.svg" alt="Featured image of post Lập trình hướng đối tượng (OOP) trong Java" /&gt;&lt;h2 id=&#34;lập-trình-hướng-đối-tượng-oop-trong-java&#34;&gt;Lập trình hướng đối tượng (OOP) trong Java
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/l%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-oop-trong-java/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/images/featured-4.svg" alt="Featured image of post Lập trình hướng đối tượng (OOP) trong Java" /&gt;&lt;h2 id=&#34;lập-trình-hướng-đối-tượng-oop-trong-java&#34;&gt;Lập trình hướng đối tượng (OOP) trong Java
 &lt;/h2&gt;&lt;p&gt;Java hỗ trợ đầy đủ các tính năng của lập trình hướng đối tượng: Lớp, đối tượng, kế thừa, đóng gói, đa hình và trừu tượng.&lt;/p&gt;
 &lt;h3 id=&#34;các-khái-niệm-cơ-bản&#34;&gt;Các khái niệm cơ bản:
 &lt;/h3&gt;&lt;ul&gt;

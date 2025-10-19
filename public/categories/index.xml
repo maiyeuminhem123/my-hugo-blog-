@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Blog Lập Trình Java &amp; JavaScript</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/categories/</link>
         <description>Recent content in Categories on Blog Lập Trình Java &amp; JavaScript</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>vi</language>
         <copyright>Nguyễn Văn Thuận</copyright>
-        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://maiyeuminhem123.github.io/my-hugo-blog-/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Java</title>
-        <link>http://localhost:1313/categories/java/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/categories/java/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/java/</guid>
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/categories/java/</guid>
         <description></description>
         </item>
         <item>
         <title>JavaScript</title>
-        <link>http://localhost:1313/categories/javascript/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/categories/javascript/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/javascript/</guid>
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/categories/javascript/</guid>
         <description></description>
         </item>
         

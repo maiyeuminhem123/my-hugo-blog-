@@ -3,7 +3,7 @@
 {{- if and (not $pc.Disable) (and $disqusjs.Shortname $disqusjs.ApiKey) -}}
 
 {{- $style := resources.Get "scss/partials/comments/disqusjs.scss" | toCSS | minify -}}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 <div class="disqus-container">
     <div id="disqus_thread"></div>

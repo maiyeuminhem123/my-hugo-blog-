@@ -63,7 +63,7 @@ git submodule update --init --recursive
 hugo server --disableFastRender
 ```
 
-4. **Truy cập:** http://localhost:1313
+4. **Truy cập:** https://maiyeuminhem123.github.io/my-hugo-blog-/
 
 ## 📁 Cấu trúc thư mục
 

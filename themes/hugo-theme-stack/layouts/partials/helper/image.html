@@ -15,7 +15,7 @@
         
         {{ if $pageResourceImage }}
             <!-- If image is found under page bundle -->
-            {{ $result = merge $result (dict "permalink" $pageResourceImage.RelPermalink) }}
+            {{ $result = merge $result (dict "permalink" $pageResourceImage.Permalink) }}
 
             <!-- Disable SVG image processing, not supported by Hugo -->
             {{ if ne (path.Ext $imageValue) ".svg" }}
@@ -23,7 +23,7 @@
             {{ end }}
         {{ else }}
             <!-- Can not find the image under page bundle. Could be a relative linked image -->
-            {{ $result = merge $result (dict "permalink" (relURL $imageValue)) }}
+            {{ $result = merge $result (dict "permalink" (absURL $imageValue)) }}
         {{ end }}
 
     {{ end }}
@@ -41,7 +41,7 @@
 
             {{ if $siteResourceImage }}
                 <!-- Try search image under site's assets folder -->
-                {{ $result = merge $result (dict "permalink" $siteResourceImage.RelPermalink) }}
+                {{ $result = merge $result (dict "permalink" $siteResourceImage.Permalink) }}
                 {{ $result = merge $result (dict "resource" $siteResourceImage) }}
             {{ else }}
                 <!-- Can not find the image -->

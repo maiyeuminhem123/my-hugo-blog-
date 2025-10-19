@@ -22,7 +22,9 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          publish_dir: ./public
+          # Hugo in this repo writes output to `docs/` (publishDir in hugo.toml).
+          # Deploy that folder to the gh-pages branch so Pages serves the correct site.
+          publish_dir: ./docs
           publish_branch: gh-pages
           allow_empty_commit: true
           github_token: ${{ secrets.GITHUB_TOKEN }}

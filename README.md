@@ -89,8 +89,8 @@ myblog/
 title: "Tiêu đề bài viết"
 date: 2025-10-17
 categories: ["Java"] # hoặc ["JavaScript"]
-featured: "/images/featured-X.svg"
-image: "/images/featured-X.svg"
+featured: "images/featured-X.svg"
+image: "images/featured-X.svg"
 ---
 ```
 

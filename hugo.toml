@@ -146,44 +146,44 @@ hasCJKLanguage = true
     languageName = "English"
     title = "Example Site"
     weight = 1
-    [languages.en.params.sidebar]
+      [languages.en.params.sidebar]
       subtitle = "Example description"
       [languages.en.params.sidebar.avatar]
         enabled = true
         local = false
-        src = "/images/avatar.png"
+        src = "images/avatar.png"
 
   [languages.zh-cn]
     languageName = "中文"
     title = "演示站点"
     weight = 2
-    [languages.zh-cn.params.sidebar]
+      [languages.zh-cn.params.sidebar]
       subtitle = "演示说明"
       [languages.zh-cn.params.sidebar.avatar]
         enabled = true
         local = false
-        src = "/images/avatar.png"
+        src = "images/avatar.png"
 
   [languages.ar]
     languageName = "عربي"
     languagedirection = "rtl"
     title = "موقع تجريبي"
     weight = 3
-    [languages.ar.params.sidebar]
+      [languages.ar.params.sidebar]
       subtitle = "وصف تجريبي"
       [languages.ar.params.sidebar.avatar]
         enabled = true
         local = false
-        src = "/images/avatar.png"
+        src = "images/avatar.png"
 
   [languages.vi]
     languageName = "Tiếng Việt"
     title = "Blog Lập Trình Java & JavaScript"
     weight = 0
     languageCode = "vi"
-    [languages.vi.params.sidebar]
+      [languages.vi.params.sidebar]
       subtitle = "Blog cá nhân chia sẻ kiến thức lập trình Java & JavaScript"
       [languages.vi.params.sidebar.avatar]
         enabled = true
         local = false
-        src = "/images/avatar.png"
+        src = "images/avatar.png"

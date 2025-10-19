@@ -2,8 +2,8 @@
 title: "Lập trình hướng đối tượng (OOP) trong Java"
 date: 2025-10-17
 categories: ["Java"]
-featured: "/images/featured-4.svg"
-image: "/images/featured-4.svg"
+featured: "images/featured-4.svg"
+image: "images/featured-4.svg"
 ---
 
 ## Lập trình hướng đối tượng (OOP) trong Java

@@ -2,8 +2,8 @@
 title: "Hello World với JavaScript (Trình duyệt & Node.js)"
 date: 2025-10-17
 categories: ["JavaScript"]
-featured: "/images/featured-6.svg"
-image: "/images/featured-6.svg"
+featured: "images/featured-6.svg"
+image: "images/featured-6.svg"
 ---
 
 ## Viết chương trình Hello World với JavaScript

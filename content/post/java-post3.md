@@ -2,8 +2,8 @@
 title: "Kiểu dữ liệu cơ bản trong Java"
 date: 2025-10-17
 categories: ["Java"]
-featured: "/images/featured-3.svg"
-image: "/images/featured-3.svg"
+featured: "images/featured-3.svg"
+image: "images/featured-3.svg"
 ---
 
 ## Các kiểu dữ liệu cơ bản trong Java

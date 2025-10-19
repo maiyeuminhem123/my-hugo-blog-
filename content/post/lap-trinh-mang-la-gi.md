@@ -2,8 +2,8 @@
 title: "Lập trình mạng là gì? Học lập trình mạng cần ngôn ngữ gì"
 description: "Tìm hiểu về lập trình mạng, các ngôn ngữ lập trình phù hợp như Python, Java, C++, và các công nghệ cần thiết để trở thành một network programmer chuyên nghiệp."
 author: "Note4Net"
-featured: "/images/featured-lap-trinh-mang.svg"
-image: "/images/featured-lap-trinh-mang.svg"
+featured: "images/featured-lap-trinh-mang.svg"
+image: "images/featured-lap-trinh-mang.svg"
 publishedAt: 2024-11-12 13:00:00
 updatedAt: 2024-11-12 13:00:00
 isPublished: true

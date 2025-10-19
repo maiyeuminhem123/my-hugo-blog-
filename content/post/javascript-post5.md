@@ -2,8 +2,8 @@
 title: "Hàm, closure và bất đồng bộ trong JavaScript"
 date: 2025-10-17
 categories: ["JavaScript"]
-featured: "/images/featured-9.svg"
-image: "/images/featured-9.svg"
+featured: "images/featured-9.svg"
+image: "images/featured-9.svg"
 ---
 
 ## Hàm trong JavaScript

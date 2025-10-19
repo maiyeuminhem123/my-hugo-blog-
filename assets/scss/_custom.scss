@@ -81,8 +81,8 @@ html, body {
                 border-radius: 50%;
                 border: 3px solid var(--accent);
                 box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  object-fit: cover;
-  display: block;
+                object-fit: cover;
+                display: block;
             }
         }
     }
@@ -586,7 +586,8 @@ blockquote {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: url('/images/avatar.png') center/cover no-repeat;
+    /* Use relative path from compiled CSS (`/scss/`) to site static images folder */
+    background: url('../images/avatar.png') center/cover no-repeat;
     border: 3px solid var(--accent);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin: 0 auto 1rem auto;

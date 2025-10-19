@@ -2,8 +2,8 @@
 title: "Kiểu dữ liệu trong JavaScript và ép kiểu"
 date: 2025-10-17
 categories: ["JavaScript"]
-featured: "/images/featured-7.svg"
-image: "/images/featured-7.svg"
+featured: "images/featured-7.svg"
+image: "images/featured-7.svg"
 ---
 
 ## Các kiểu dữ liệu cơ bản trong JavaScript

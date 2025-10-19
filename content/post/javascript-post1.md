@@ -2,8 +2,8 @@
 title: "Tổng quan về JavaScript"
 date: 2025-10-17
 categories: ["JavaScript"]
-featured: "/images/featured-5.svg"
-image: "/images/featured-5.svg"
+featured: "images/featured-5.svg"
+image: "images/featured-5.svg"
 description: "Khám phá JavaScript - ngôn ngữ lập trình phổ biến nhất thế giới, từ frontend web đến backend server, mobile và desktop applications."
 ---
 

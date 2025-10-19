@@ -6,13 +6,13 @@
             <div class="article-image">
                 {{ if $image.resource }}
                     {{- $imageRaw := $image.resource | resources.Fingerprint "md5" -}}
-                    {{- $Permalink := $imageRaw.RelPermalink -}}
+                    {{- $Permalink := $imageRaw.Permalink -}}
                     {{- $Width := $imageRaw.Width -}}
                     {{- $Height := $imageRaw.Height -}}
 
                     {{- if .context.Site.Params.imageProcessing.cover.enabled -}}
                         {{- $thumbnail := $imageRaw.Fill .size -}}
-                        {{- $Permalink = $thumbnail.RelPermalink -}}
+                        {{- $Permalink = $thumbnail.Permalink -}}
                         {{- $Width = $thumbnail.Width -}}
                         {{- $Height = $thumbnail.Height -}}
                     {{- end -}}

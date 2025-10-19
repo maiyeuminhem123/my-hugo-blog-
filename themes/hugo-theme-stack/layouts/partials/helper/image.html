@@ -50,8 +50,8 @@
             {{ end }}
 
         {{ else }}
-            <!-- External image -->
-            {{ $result = merge $result (dict "permalink" (relURL $defaultImageSetting.src)) }}
+            <!-- External image or non-local default image -->
+            {{ $result = merge $result (dict "permalink" (absURL $defaultImageSetting.src)) }}
         {{ end }}
         
     {{ end }}

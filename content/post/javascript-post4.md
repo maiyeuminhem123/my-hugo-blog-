@@ -2,8 +2,8 @@
 title: "Khai báo biến và scope trong JavaScript"
 date: 2025-10-17
 categories: ["JavaScript"]
-featured: "/images/featured-8.svg"
-image: "/images/featured-8.svg"
+featured: "images/featured-8.svg"
+image: "images/featured-8.svg"
 ---
 
 ## Biến và khai báo biến trong JavaScript

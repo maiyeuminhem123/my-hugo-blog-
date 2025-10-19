@@ -2,8 +2,8 @@
 title: "Hello World và Cách biên dịch trong Java"
 date: 2025-10-17
 categories: ["Java"]
-featured: "/images/featured-2.svg"
-image: "/images/featured-2.svg"
+featured: "images/featured-2.svg"
+image: "images/featured-2.svg"
 description: "Hướng dẫn chi tiết cách viết, biên dịch và chạy chương trình Hello World đầu tiên trong Java với các bước từ cài đặt đến thực thi."
 ---
 

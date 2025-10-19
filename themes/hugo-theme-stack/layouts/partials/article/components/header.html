@@ -4,16 +4,16 @@
         <div class="article-image">
             <a href="{{ .RelPermalink }}">
                 {{ if $image.resource }}
-                    {{- $Permalink := $image.resource.RelPermalink -}}
+                    {{- $Permalink := $image.resource.Permalink -}}
                     {{- $Width := $image.resource.Width -}}
                     {{- $Height := $image.resource.Height -}}
                     {{- $Srcset := "" -}}
-                    
+
                     {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
                         {{- $thumbnail := $image.resource.Resize "800x" -}}
                         {{- $thumbnailRetina := $image.resource.Resize "1600x" -}}
-                        {{- $Srcset = printf "%s 800w, %s 1600w" $thumbnail.RelPermalink $thumbnailRetina.RelPermalink -}}
-                        {{- $Permalink = $thumbnail.RelPermalink -}}
+                        {{- $Srcset = printf "%s 800w, %s 1600w" $thumbnail.Permalink $thumbnailRetina.Permalink -}}
+                        {{- $Permalink = $thumbnail.Permalink -}}
                         {{- $Width = $thumbnail.Width -}}
                         {{- $Height = $thumbnail.Height -}}
                     {{- end -}}
@@ -25,7 +25,7 @@
                         loading="lazy"
                         alt="Featured image of post {{ .Title }}" />
                 {{ else }}
-                    <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+                    <img src="{{ $image.permalink | absURL }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
                 {{ end }}
             </a>
         </div>

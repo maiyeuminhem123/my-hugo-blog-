@@ -2,8 +2,8 @@
 title: "Giới thiệu ngôn ngữ Java"
 date: 2025-10-17
 categories: ["Java"]
-featured: "/images/featured-1.svg"
-image: "/images/featured-1.svg"
+featured: "images/featured-1.svg"
+image: "images/featured-1.svg"
 description: "Tìm hiểu về ngôn ngữ lập trình Java - một trong những ngôn ngữ phổ biến nhất thế giới với khả năng đa nền tảng và hướng đối tượng mạnh mẽ."
 ---
 

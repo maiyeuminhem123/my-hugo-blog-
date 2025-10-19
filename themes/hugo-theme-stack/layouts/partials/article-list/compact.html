@@ -15,13 +15,13 @@
         {{ if $image.exists }}
             <div class="article-image">
                 {{ if $image.resource }}
-                    {{- $Permalink := $image.resource.RelPermalink -}}
+                    {{- $Permalink := $image.resource.Permalink -}}
                     {{- $Width := $image.resource.Width -}}
                     {{- $Height := $image.resource.Height -}}
 
                     {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
                         {{- $thumbnail := $image.resource.Fill "120x120" -}}
-                        {{- $Permalink = $thumbnail.RelPermalink -}}
+                        {{- $Permalink = $thumbnail.Permalink -}}
                         {{- $Width = $thumbnail.Width -}}
                         {{- $Height = $thumbnail.Height -}}
                     {{- end -}}
@@ -32,7 +32,7 @@
                         alt="{{ .Title }}"
                         loading="lazy">
                 {{ else }}
-                    <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+                    <img src="{{ $image.permalink | absURL }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
                 {{ end }}
             </div>
         {{ end }}

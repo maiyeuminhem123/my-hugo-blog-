@@ -1,6 +1,7 @@
 baseurl = "https://maiyeuminhem123.github.io/my-hugo-blog-/"
 languageCode = "vi"
 theme = "hugo-theme-stack"
+publishDir = "docs"
 title = "Blog Lập Trình Java & JavaScript"
 copyright = "Nguyễn Văn Thuận"
 DefaultContentLanguage = "vi"

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1e3c72"/>
+      <stop offset="1" stop-color="#2a5298"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)" />
+  <g transform="translate(80,84)">
+    <rect width="1040" height="462" rx="24" fill="rgba(255,255,255,0.06)"/>
+    <text x="520" y="180" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="54" fill="#ffffff" font-weight="700">Giới thiệu ngôn ngữ Java</text>
+    <text x="520" y="250" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" fill="#dbeafe">Lịch sử, đặc điểm và ứng dụng</text>
+  </g>
+  <circle cx="1060" cy="120" r="48" fill="#f59e0b" opacity="0.95" />
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0ea5e9" />
+  <g transform="translate(80,84)">
+    <text x="520" y="200" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial" font-size="46" fill="#fff" font-weight="700">Khai báo biến và scope trong JavaScript</text>
+    <text x="520" y="260" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial" font-size="18" fill="#eaf8ff">var, let, const và phạm vi hoạt động</text>
+  </g>
+</svg>

@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Khám phá JavaScript - ngôn ngữ lập trình phổ biến nhất thế giới, từ frontend web đến backend server, mobile và desktop applications.">
+<title>Tổng quan về JavaScript</title>
+
+<link rel='canonical' href='https://maiyeuminhem123.github.io/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/'>
+
+<link rel="stylesheet" href="/my-hugo-blog-/scss/style.min.569e93284060e1d31162f4b0eac258d96d89e6ec8658a3366ad0613baa5492e0.css"><meta property='og:title' content="Tổng quan về JavaScript">
+<meta property='og:description' content="Khám phá JavaScript - ngôn ngữ lập trình phổ biến nhất thế giới, từ frontend web đến backend server, mobile và desktop applications.">
+<meta property='og:url' content='https://maiyeuminhem123.github.io/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/'>
+<meta property='og:site_name' content='Blog Lập Trình Java &amp; JavaScript'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-10-17T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-17T00:00:00&#43;00:00'/><meta property='og:image' content='https://maiyeuminhem123.github.io/images/featured-5.svg' />
+<meta name="twitter:title" content="Tổng quan về JavaScript">
+<meta name="twitter:description" content="Khám phá JavaScript - ngôn ngữ lập trình phổ biến nhất thế giới, từ frontend web đến backend server, mobile và desktop applications."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://maiyeuminhem123.github.io/images/featured-5.svg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Hiển thị Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/my-hugo-blog-/">
+                
+                    <img src="/images/avatar.png" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">🚀</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/my-hugo-blog-">Blog Lập Trình Java &amp; JavaScript</a></h1>
+            <h2 class="site-description">Blog cá nhân chia sẻ kiến thức lập trình Java &amp; JavaScript</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='mailto:nguyenvanthuan7395@gmail.com'
+                        target="_blank"
+                        title="Email"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="5" width="18" height="14" rx="2" />
+  <polyline points="3 7 12 13 21 7" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/maiyeuminhem123'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/my-hugo-blog-/' >
+                
+                
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/my-hugo-blog-/about/' >
+                
+                
+                
+                <span>Giới thiệu</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/my-hugo-blog-/post/' >
+                
+                
+                
+                <span>Blog</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/my-hugo-blog-/contact/' >
+                
+                
+                
+                <span>Liên hệ</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://maiyeuminhem123.github.io/my-hugo-blog-/en/" >English</option>
+                                
+                                    <option value="https://maiyeuminhem123.github.io/my-hugo-blog-/zh-cn/" >中文</option>
+                                
+                                    <option value="https://maiyeuminhem123.github.io/my-hugo-blog-/ar/" >عربي</option>
+                                
+                                    <option value="https://maiyeuminhem123.github.io/my-hugo-blog-/" selected>Tiếng Việt</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Chế độ nền tối</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/">
+                
+                    <img src="/images/featured-5.svg" loading="lazy" alt="Featured image of post Tổng quan về JavaScript" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/my-hugo-blog-/categories/javascript/" >
+                JavaScript
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/">Tổng quan về JavaScript</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Khám phá JavaScript - ngôn ngữ lập trình phổ biến nhất thế giới, từ frontend web đến backend server, mobile và desktop applications.
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">17/10/2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    6 phút đọc
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="tổng-quan-về-javascript">Tổng quan về JavaScript
+</h2><p>JavaScript là <strong>ngôn ngữ lập trình phổ biến nhất thế giới</strong>, được phát triển bởi <strong>Brendan Eich</strong> tại Netscape vào năm 1995 trong vòng chỉ <strong>10 ngày</strong>! Ban đầu, JavaScript chỉ được thiết kế để tạo hiệu ứng động đơn giản trên trình duyệt, nhưng hiện nay đã phát triển thành một <strong>ecosystem toàn diện</strong> cho phát triển ứng dụng hiện đại.</p>
+<blockquote>
+<p><strong>💡 Fun Fact:</strong> JavaScript ban đầu được đặt tên là &ldquo;Mocha&rdquo;, sau đó đổi thành &ldquo;LiveScript&rdquo;, và cuối cùng là &ldquo;JavaScript&rdquo; để tận dụng sự phổ biến của Java lúc bấy giờ.</p>
+</blockquote>
+<h2 id="-lịch-sử-phát-triển-của-javascript">🚀 Lịch sử phát triển của JavaScript
+</h2><h3 id="timeline-quan-trọng"><strong>Timeline quan trọng:</strong>
+</h3><ul>
+<li><strong>1995</strong>: JavaScript 1.0 - Phiên bản đầu tiên trong Netscape Navigator</li>
+<li><strong>1997</strong>: ECMAScript 1 - Chuẩn hóa ngôn ngữ</li>
+<li><strong>2009</strong>: Node.js - JavaScript trên server</li>
+<li><strong>2015</strong>: ES6 (ES2015) - Classes, Arrow functions, Modules</li>
+<li><strong>2017</strong>: ES2017 - Async/await</li>
+<li><strong>2020</strong>: ES2020 - Optional chaining, Nullish coalescing</li>
+<li><strong>2023</strong>: ES2023 - Array findLast methods</li>
+</ul>
+<h2 id="-đặc-điểm-nổi-bật-của-javascript">⭐ Đặc điểm nổi bật của JavaScript
+</h2><h3 id="1-đa-nền-tảng-cross-platform">1. <strong>Đa nền tảng (Cross-platform)</strong>
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Chạy trên trình duyệt
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Hello Browser!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Chạy trên server (Node.js)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Hello Server!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Chạy trên mobile (React Native)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Hello Mobile!&#34;</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="2-linh-hoạt-và-năng-động">2. <strong>Linh hoạt và năng động</strong>
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Dynamic typing
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">42</span><span class="p">;</span>        <span class="c1">// number
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">x</span> <span class="o">=</span> <span class="s2">&#34;Hello&#34;</span><span class="p">;</span>       <span class="c1">// string
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">x</span> <span class="o">=</span> <span class="p">{</span> <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;JS&#34;</span> <span class="p">};</span> <span class="c1">// object
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Flexible object manipulation
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;Nguyễn Văn A&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">age</span><span class="o">:</span> <span class="mi">25</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Thêm property mới
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">user</span><span class="p">.</span><span class="nx">email</span> <span class="o">=</span> <span class="s2">&#34;user@example.com&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Thêm method mới
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">user</span><span class="p">.</span><span class="nx">greet</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="sb">`Xin chào, tôi là </span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="3-event-driven-programming">3. <strong>Event-driven Programming</strong>
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// DOM Events
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;button&#39;</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Button clicked!&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Node.js Events
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">EventEmitter</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;events&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">emitter</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">EventEmitter</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">emitter</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;user-login&#39;</span><span class="p">,</span> <span class="p">(</span><span class="nx">user</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`User </span><span class="si">${</span><span class="nx">user</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb"> logged in`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">emitter</span><span class="p">.</span><span class="nx">emit</span><span class="p">(</span><span class="s1">&#39;user-login&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Alice&#39;</span> <span class="p">});</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="4-asynchronous-programming">4. <strong>Asynchronous Programming</strong>
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Callback (cũ)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">setTimeout</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Hello after 1 second&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Promise (hiện đại)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;/api/users&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="p">=&gt;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="p">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span> <span class="p">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">error</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Async/Await (hiện đại nhất)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">async</span> <span class="kd">function</span> <span class="nx">getUsers</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;/api/users&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="-ứng-dụng-của-javascript-trong-thực-tế">🎯 Ứng dụng của JavaScript trong thực tế
+</h2><h3 id="1-frontend-web-development">1. <strong>Frontend Web Development</strong>
+</h3><ul>
+<li><strong>React</strong>: Component-based UI library</li>
+<li><strong>Vue.js</strong>: Progressive framework</li>
+<li><strong>Angular</strong>: Full-featured framework</li>
+<li><strong>Svelte</strong>: Compile-time optimization</li>
+</ul>
+<h3 id="2-backend-development">2. <strong>Backend Development</strong>
+</h3><ul>
+<li><strong>Node.js</strong>: Server-side JavaScript runtime</li>
+<li><strong>Express.js</strong>: Minimal web framework</li>
+<li><strong>Fastify</strong>: High-performance framework</li>
+<li><strong>NestJS</strong>: Enterprise-grade framework</li>
+</ul>
+<h3 id="3-mobile-development">3. <strong>Mobile Development</strong>
+</h3><ul>
+<li><strong>React Native</strong>: Cross-platform mobile apps</li>
+<li><strong>Ionic</strong>: Hybrid mobile development</li>
+<li><strong>Cordova/PhoneGap</strong>: Web-to-mobile wrapper</li>
+</ul>
+<h3 id="4-desktop-applications">4. <strong>Desktop Applications</strong>
+</h3><ul>
+<li><strong>Electron</strong>: Desktop apps with web technologies</li>
+<li><strong>Tauri</strong>: Rust-based alternative to Electron</li>
+</ul>
+<h3 id="5-game-development">5. <strong>Game Development</strong>
+</h3><ul>
+<li><strong>Three.js</strong>: 3D graphics library</li>
+<li><strong>Phaser</strong>: Game development framework</li>
+<li><strong>PixiJS</strong>: 2D rendering engine</li>
+</ul>
+<h3 id="6-iot--hardware">6. <strong>IoT &amp; Hardware</strong>
+</h3><ul>
+<li><strong>Johnny-Five</strong>: IoT and robotics platform</li>
+<li><strong>Espruino</strong>: JavaScript for microcontrollers</li>
+</ul>
+<h2 id="-tại-sao-javascript-lại-phổ-biến">💼 Tại sao JavaScript lại phổ biến?
+</h2><h3 id="ưu-điểm"><strong>Ưu điểm:</strong>
+</h3><p>✅ <strong>Dễ học</strong> - Syntax đơn giản, gần gũi với tiếng Anh<br>
+✅ <strong>Nhanh chóng</strong> - Không cần compiler, chạy ngay<br>
+✅ <strong>Linh hoạt</strong> - Có thể làm mọi thứ từ web đến AI<br>
+✅ <strong>Cộng đồng lớn</strong> - NPM có hơn 2 triệu packages<br>
+✅ <strong>Job market</strong> - Nhu cầu tuyển dụng cao nhất<br>
+✅ <strong>Ecosystem phong phú</strong> - Framework, library đa dạng</p>
+<h3 id="nhược-điểm"><strong>Nhược điểm:</strong>
+</h3><p>❌ <strong>Type safety</strong> - Thiếu kiểm tra kiểu dữ liệu (TypeScript giải quyết)<br>
+❌ <strong>Performance</strong> - Chậm hơn compiled languages<br>
+❌ <strong>Browser compatibility</strong> - Khác biệt giữa các trình duyệt<br>
+❌ <strong>Callback hell</strong> - Có thể gây khó đọc với nested callbacks</p>
+<h2 id="-modern-javascript-features">🛠️ Modern JavaScript Features
+</h2><h3 id="es6-highlights"><strong>ES6+ Highlights:</strong>
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Arrow Functions
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">multiply</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">a</span> <span class="o">*</span> <span class="nx">b</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Destructuring
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="p">{</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">age</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">user</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="p">[</span><span class="nx">first</span><span class="p">,</span> <span class="nx">second</span><span class="p">]</span> <span class="o">=</span> <span class="nx">array</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Template Literals
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">message</span> <span class="o">=</span> <span class="sb">`Xin chào </span><span class="si">${</span><span class="nx">name</span><span class="si">}</span><span class="sb">, bạn </span><span class="si">${</span><span class="nx">age</span><span class="si">}</span><span class="sb"> tuổi`</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Classes
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">class</span> <span class="nx">Person</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">constructor</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">age</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="p">.</span><span class="nx">age</span> <span class="o">=</span> <span class="nx">age</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="nx">greet</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="sb">`Xin chào, tôi là </span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Modules
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">export</span> <span class="kr">const</span> <span class="nx">API_URL</span> <span class="o">=</span> <span class="s1">&#39;https://api.example.com&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">API_URL</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;./config.js&#39;</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="es2017-features"><strong>ES2017+ Features:</strong>
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// Async/Await
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">async</span> <span class="kd">function</span> <span class="nx">fetchData</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;/api/data&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="kr">await</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">data</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Optional Chaining
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">userCity</span> <span class="o">=</span> <span class="nx">user</span><span class="o">?</span><span class="p">.</span><span class="nx">address</span><span class="o">?</span><span class="p">.</span><span class="nx">city</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Nullish Coalescing
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">username</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">name</span> <span class="o">??</span> <span class="s1">&#39;Guest&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// BigInt
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">bigNumber</span> <span class="o">=</span> <span class="mi">123456789012345678901234567890</span><span class="nx">n</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="-lộ-trình-học-javascript-hiện-đại">📚 Lộ trình học JavaScript hiện đại
+</h2><h3 id="phase-1-fundamentals-1-2-tháng"><strong>Phase 1: Fundamentals (1-2 tháng)</strong>
+</h3><ol>
+<li><strong>Syntax cơ bản</strong> - Variables, functions, objects</li>
+<li><strong>DOM Manipulation</strong> - Selectors, events, styling</li>
+<li><strong>ES6+ Features</strong> - Arrow functions, destructuring, classes</li>
+<li><strong>Async Programming</strong> - Promises, async/await</li>
+</ol>
+<h3 id="phase-2-frontend-frameworks-2-3-tháng"><strong>Phase 2: Frontend Frameworks (2-3 tháng)</strong>
+</h3><ol>
+<li><strong>React</strong> - Components, hooks, state management</li>
+<li><strong>Build Tools</strong> - Webpack, Vite, Parcel</li>
+<li><strong>CSS Frameworks</strong> - Tailwind CSS, Styled Components</li>
+<li><strong>Testing</strong> - Jest, React Testing Library</li>
+</ol>
+<h3 id="phase-3-backend-development-2-3-tháng"><strong>Phase 3: Backend Development (2-3 tháng)</strong>
+</h3><ol>
+<li><strong>Node.js</strong> - Server-side JavaScript</li>
+<li><strong>Express.js</strong> - Web framework</li>
+<li><strong>Database Integration</strong> - MongoDB, PostgreSQL</li>
+<li><strong>Authentication</strong> - JWT, OAuth</li>
+</ol>
+<h3 id="phase-4-advanced-topics-2-3-tháng"><strong>Phase 4: Advanced Topics (2-3 tháng)</strong>
+</h3><ol>
+<li><strong>TypeScript</strong> - Type-safe JavaScript</li>
+<li><strong>Performance Optimization</strong> - Bundle splitting, caching</li>
+<li><strong>DevOps</strong> - Docker, CI/CD</li>
+<li><strong>Testing</strong> - Unit, integration, e2e testing</li>
+</ol>
+<h2 id="-javascript-ecosystem">🎯 JavaScript Ecosystem
+</h2><h3 id="package-managers"><strong>Package Managers:</strong>
+</h3><ul>
+<li><strong>npm</strong> - Default package manager</li>
+<li><strong>yarn</strong> - Faster alternative</li>
+<li><strong>pnpm</strong> - Efficient disk usage</li>
+</ul>
+<h3 id="build-tools"><strong>Build Tools:</strong>
+</h3><ul>
+<li><strong>Webpack</strong> - Module bundler</li>
+<li><strong>Vite</strong> - Fast build tool</li>
+<li><strong>Parcel</strong> - Zero-config bundler</li>
+</ul>
+<h3 id="testing-frameworks"><strong>Testing Frameworks:</strong>
+</h3><ul>
+<li><strong>Jest</strong> - Testing framework</li>
+<li><strong>Cypress</strong> - E2E testing</li>
+<li><strong>Playwright</strong> - Cross-browser testing</li>
+</ul>
+<h2 id="-kết-luận">🎯 Kết luận
+</h2><p>JavaScript đã phát triển từ một ngôn ngữ &ldquo;toy&rdquo; thành <strong>ngôn ngữ lập trình quan trọng nhất thế giới</strong>. Với khả năng chạy trên <strong>mọi nền tảng</strong> và <strong>ecosystem phong phú</strong>, JavaScript mở ra vô số cơ hội nghề nghiệp.</p>
+<blockquote>
+<p><strong>🚀 Lời khuyên:</strong> JavaScript là lựa chọn tuyệt vời để bắt đầu học lập trình vì tính <strong>linh hoạt</strong> và <strong>cơ hội nghề nghiệp</strong> rộng lớn. Từ frontend đến backend, từ web đến mobile, JavaScript có thể làm được mọi thứ!</p>
+</blockquote>
+<h2 id="-tài-liệu-tham-khảo">📖 Tài liệu tham khảo
+</h2><ul>
+<li>📚 <a class="link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"  target="_blank" rel="noopener"
+    >MDN JavaScript Guide</a></li>
+<li>🌐 <a class="link" href="https://javascript.info/"  target="_blank" rel="noopener"
+    >JavaScript.info</a> - Modern JavaScript tutorial</li>
+<li>📖 <a class="link" href="https://eloquentjavascript.net/"  target="_blank" rel="noopener"
+    >Eloquent JavaScript</a> - Free online book</li>
+<li>🎓 <a class="link" href="https://nodejs.org/docs/"  target="_blank" rel="noopener"
+    >Node.js Documentation</a></li>
+<li>💻 <a class="link" href="https://react.dev/"  target="_blank" rel="noopener"
+    >React Documentation</a></li>
+<li>🔥 <a class="link" href="https://javascript30.com/"  target="_blank" rel="noopener"
+    >JavaScript30</a> - 30-day vanilla JS challenge</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Bài viết liên quan</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/my-hugo-blog-/p/hello-world-v%E1%BB%9Bi-javascript-tr%C3%ACnh-duy%E1%BB%87t-node.js/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/featured-6.svg" loading="lazy" data-key="" data-hash="/images/featured-6.svg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Hello World với JavaScript (Trình duyệt &amp; Node.js)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/my-hugo-blog-/p/h%C3%A0m-closure-v%C3%A0-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-trong-javascript/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/featured-9.svg" loading="lazy" data-key="" data-hash="/images/featured-9.svg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Hàm, closure và bất đồng bộ trong JavaScript</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/my-hugo-blog-/p/khai-b%C3%A1o-bi%E1%BA%BFn-v%C3%A0-scope-trong-javascript/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/featured-8.svg" loading="lazy" data-key="" data-hash="/images/featured-8.svg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Khai báo biến và scope trong JavaScript</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-javascript-v%C3%A0-%C3%A9p-ki%E1%BB%83u/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/featured-7.svg" loading="lazy" data-key="" data-hash="/images/featured-7.svg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Kiểu dữ liệu trong JavaScript và ép kiểu</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2024 - 
+        
+        2025 Nguyễn Văn Thuận
+    </section>
+    
+    <section class="powerby">
+        
+            Blog Lập Trình Java & JavaScript - Đồ án học phần <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.31.0">Stack</a></b> thiết kế bởi <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/my-hugo-blog-/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,28 @@
+name: Build and Deploy Hugo to gh-pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.151.2'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          publish_dir: ./public
+          publish_branch: gh-pages
+          allow_empty_commit: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}

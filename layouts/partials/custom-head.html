@@ -1,0 +1,118 @@
+<!-- Custom head elements for better styling - wider layout -->
+<style>
+  :root {
+    --sidebar-width: 260px;
+    --content-max-width: none;
+  }
+  
+  /* Ensure proper spacing and layout - utilize full screen */
+  .main {
+    width: calc(100vw - var(--sidebar-width));
+    margin-left: var(--sidebar-width);
+    padding: 2rem 3rem;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: var(--sidebar-width);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 100;
+  }
+  
+  /* Better post list styling - wider cards */
+  .post-list {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+    max-width: none;
+    width: 100%;
+  }
+  
+  .post-item {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 2.5rem;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    max-width: 100%;
+  }
+  
+  .post-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+    border-color: var(--accent-alpha-20);
+  }
+  
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: var(--secondary);
+    flex-wrap: wrap;
+  }
+  
+  .post-category {
+    background: linear-gradient(135deg, var(--accent), var(--accent-alpha-80));
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Make content area utilize full width */
+  .main-content {
+    width: 100%;
+    max-width: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    :root {
+      --sidebar-width: 260px;
+    }
+    
+    .main {
+      width: calc(100vw - 260px);
+      margin-left: 260px;
+      padding: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      width: 100vw;
+      margin-left: 0;
+      padding: 1rem;
+    }
+    
+    .sidebar {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    
+    .post-item {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .main {
+      padding: 2rem 4rem;
+    }
+    
+    .post-item {
+      padding: 3rem;
+    }
+  }
+</style>

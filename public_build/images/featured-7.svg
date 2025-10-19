@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g7" x1="0" x2="1">
+      <stop offset="0" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#0ea5a4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g7)" />
+  <text x="50%" y="44%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial" font-size="44" fill="#fff" font-weight="700">Kiểu dữ liệu trong JavaScript và ép kiểu</text>
+  <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial" font-size="18" fill="#e6fffa">primitive, object, array, coercion</text>
+</svg>

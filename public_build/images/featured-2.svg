@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g2)" />
+  <g transform="translate(72,90)">
+    <rect width="1056" height="450" rx="20" fill="rgba(255,255,255,0.05)" />
+    <text x="528" y="190" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial" font-size="48" fill="#fff" font-weight="700">Hello World và Cách biên dịch trong Java</text>
+    <text x="528" y="260" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial" font-size="20" fill="#ffe9db">Ví dụ, javac & java</text>
+  </g>
+</svg>

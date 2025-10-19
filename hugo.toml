@@ -1,0 +1,188 @@
+baseurl = "https://yourblog.netlify.app/"
+languageCode = "vi"
+theme = "hugo-theme-stack"
+title = "Blog Lập Trình Java & JavaScript"
+copyright = "Nguyễn Văn Thuận"
+DefaultContentLanguage = "vi"
+hasCJKLanguage = true
+
+[services]
+  [services.disqus]
+    shortname = "hugo-theme-stack"
+  [services.googleAnalytics]
+    id = ""
+
+[pagination]
+  pagerSize = 3
+
+[permalinks]
+  post = "/p/:slug/"
+  page = "/:slug/"
+
+[params]
+  mainSections = ["post"]
+  featuredImageField = "image"
+  rssFullContent = true
+  favicon = ""
+  
+  # Layout improvements - wider content
+  listPageSize = 8
+  listPageSizeInArchive = 16
+  
+  # Content width optimization
+  contentWidth = "wide"
+
+  [params.footer]
+    since = 2024
+    customText = "Blog Lập Trình Java & JavaScript - Đồ án học phần"
+
+  [params.dateFormat]
+    published = "02/01/2006"
+    lastUpdated = "02/01/2006 15:04"
+
+  [params.sidebar]
+    emoji = "🚀"
+    subtitle = "Blog cá nhân chia sẻ kiến thức lập trình Java & JavaScript"
+    width = "260px"
+    sticky = true
+    [params.sidebar.avatar]
+      enabled = true
+      local = true
+      src = "images/avatar.png"
+
+  [params.article]
+    math = false
+    toc = true
+    readingTime = true
+    showWordCount = true
+    showReadingTime = true
+    [params.article.license]
+      enabled = true
+      default = "Licensed under CC BY-NC-SA 4.0"
+
+  [params.comments]
+    enabled = true
+    provider = "disqus"
+
+  [params.colorScheme]
+    toggle = true
+    default = "auto"
+
+  [params.imageProcessing.cover]
+    enabled = true
+  [params.imageProcessing.content]
+    enabled = true
+
+[params.assets]
+  favicon = "/favicon.ico"
+  avatar = "images/avatar.png"
+
+[menu]
+  [[menu.social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/maiyeuminhem123"
+    [menu.social.params]
+      icon = "brand-github"
+
+  [[menu.social]]
+    identifier = "email"
+    name = "Email"
+    url = "mailto:nguyenvanthuan7395@gmail.com"
+    [menu.social.params]
+      icon = "mail"
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Giới thiệu"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/post/"
+    weight = 3
+  [[menu.main]]
+    name = "Liên hệ"
+    url = "/contact/"
+    weight = 4
+
+[related]
+  includeNewer = true
+  threshold = 60
+  toLower = false
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 200
+
+[markup]
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    block = [["\\[", "\\]"], ["$$", "$$"]]
+    inline = [["\\(", "\\)"]]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = true
+    startLevel = 2
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Example Site"
+    weight = 1
+    [languages.en.params.sidebar]
+      subtitle = "Example description"
+      [languages.en.params.sidebar.avatar]
+        enabled = true
+        local = false
+        src = "/images/avatar.png"
+
+  [languages.zh-cn]
+    languageName = "中文"
+    title = "演示站点"
+    weight = 2
+    [languages.zh-cn.params.sidebar]
+      subtitle = "演示说明"
+      [languages.zh-cn.params.sidebar.avatar]
+        enabled = true
+        local = false
+        src = "/images/avatar.png"
+
+  [languages.ar]
+    languageName = "عربي"
+    languagedirection = "rtl"
+    title = "موقع تجريبي"
+    weight = 3
+    [languages.ar.params.sidebar]
+      subtitle = "وصف تجريبي"
+      [languages.ar.params.sidebar.avatar]
+        enabled = true
+        local = false
+        src = "/images/avatar.png"
+
+  [languages.vi]
+    languageName = "Tiếng Việt"
+    title = "Blog Lập Trình Java & JavaScript"
+    weight = 0
+    languageCode = "vi"
+    [languages.vi.params.sidebar]
+      subtitle = "Blog cá nhân chia sẻ kiến thức lập trình Java & JavaScript"
+      [languages.vi.params.sidebar.avatar]
+        enabled = true
+        local = false
+        src = "/images/avatar.png"

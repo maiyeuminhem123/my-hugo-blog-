@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Trang chủ on Blog Lập Trình Java &amp; JavaScript</title>
-        <link>http://localhost:53462/my-hugo-blog-/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/</link>
         <description>Recent content in Trang chủ on Blog Lập Trình Java &amp; JavaScript</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>vi</language>
         <copyright>Nguyễn Văn Thuận</copyright>
-        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:53462/my-hugo-blog-/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://maiyeuminhem123.github.io/my-hugo-blog-/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Contact</title>
-        <link>http://localhost:53462/my-hugo-blog-/contact/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/contact/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/contact/</guid>
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/contact/</guid>
         <description>&lt;h2 id=&#34;liên-hệ&#34;&gt;Liên hệ
 &lt;/h2&gt;&lt;p&gt;Bạn có thể liên hệ với mình qua:&lt;/p&gt;
 &lt;ul&gt;
@@ -27,10 +27,10 @@
         </item>
         <item>
         <title>Giới thiệu cá nhân</title>
-        <link>http://localhost:53462/my-hugo-blog-/about/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/about/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/about/</guid>
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/about/</guid>
         <description>&lt;h1 id=&#34;-xin-chào-tôi-là-nguyễn-văn-thuận&#34;&gt;👋 Xin chào! Tôi là Nguyễn Văn Thuận
 &lt;/h1&gt;&lt;h2 id=&#34;-thông-tin-cá-nhân&#34;&gt;🎓 Thông tin cá nhân
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Tên:&lt;/strong&gt; Nguyễn Văn Thuận&lt;br&gt;
@@ -88,11 +88,11 @@
         </item>
         <item>
         <title>Giới thiệu ngôn ngữ Java</title>
-        <link>http://localhost:53462/my-hugo-blog-/p/gi%E1%BB%9Bi-thi%E1%BB%87u-ng%C3%B4n-ng%E1%BB%AF-java/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/gi%E1%BB%9Bi-thi%E1%BB%87u-ng%C3%B4n-ng%E1%BB%AF-java/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/p/gi%E1%BB%9Bi-thi%E1%BB%87u-ng%C3%B4n-ng%E1%BB%AF-java/</guid>
-        <description>&lt;img src="http://localhost:53462/my-hugo-blog-/images/featured-1.svg" alt="Featured image of post Giới thiệu ngôn ngữ Java" /&gt;&lt;h2 id=&#34;giới-thiệu-ngôn-ngữ-lập-trình-java&#34;&gt;Giới thiệu ngôn ngữ lập trình Java
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/gi%E1%BB%9Bi-thi%E1%BB%87u-ng%C3%B4n-ng%E1%BB%AF-java/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/my-hugo-blog-/images/featured-1.svg" alt="Featured image of post Giới thiệu ngôn ngữ Java" /&gt;&lt;h2 id=&#34;giới-thiệu-ngôn-ngữ-lập-trình-java&#34;&gt;Giới thiệu ngôn ngữ lập trình Java
 &lt;/h2&gt;&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng mạnh mẽ và phổ biến, được phát triển bởi &lt;strong&gt;James Gosling&lt;/strong&gt; và đội ngũ tại Sun Microsystems vào năm 1995. Java nổi bật với khẩu hiệu &lt;strong&gt;&amp;ldquo;Write Once, Run Anywhere&amp;rdquo;&lt;/strong&gt; (WORA) - Viết một lần, chạy mọi nơi - nhờ khả năng chạy trên nhiều nền tảng khác nhau thông qua máy ảo Java (JVM).&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 Fun Fact:&lt;/strong&gt; Java ban đầu được đặt tên là &amp;ldquo;Oak&amp;rdquo; (Cây sồi), nhưng sau đó đổi thành &amp;ldquo;Java&amp;rdquo; vì tên này đã được đăng ký bởi một công ty khác.&lt;/p&gt;
@@ -270,11 +270,11 @@
         </item>
         <item>
         <title>Hàm, closure và bất đồng bộ trong JavaScript</title>
-        <link>http://localhost:53462/my-hugo-blog-/p/h%C3%A0m-closure-v%C3%A0-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-trong-javascript/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/h%C3%A0m-closure-v%C3%A0-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-trong-javascript/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/p/h%C3%A0m-closure-v%C3%A0-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-trong-javascript/</guid>
-        <description>&lt;img src="http://localhost:53462/my-hugo-blog-/images/featured-9.svg" alt="Featured image of post Hàm, closure và bất đồng bộ trong JavaScript" /&gt;&lt;h2 id=&#34;hàm-trong-javascript&#34;&gt;Hàm trong JavaScript
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/h%C3%A0m-closure-v%C3%A0-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-trong-javascript/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/my-hugo-blog-/images/featured-9.svg" alt="Featured image of post Hàm, closure và bất đồng bộ trong JavaScript" /&gt;&lt;h2 id=&#34;hàm-trong-javascript&#34;&gt;Hàm trong JavaScript
 &lt;/h2&gt;&lt;p&gt;Hàm (function) là khối mã thực hiện một nhiệm vụ cụ thể, giúp tái sử dụng code.&lt;/p&gt;
 &lt;h3 id=&#34;cách-khai-báo-hàm&#34;&gt;Cách khai báo hàm:
 &lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -357,11 +357,11 @@
         </item>
         <item>
         <title>Hello World và Cách biên dịch trong Java</title>
-        <link>http://localhost:53462/my-hugo-blog-/p/hello-world-v%C3%A0-c%C3%A1ch-bi%C3%AAn-d%E1%BB%8Bch-trong-java/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/hello-world-v%C3%A0-c%C3%A1ch-bi%C3%AAn-d%E1%BB%8Bch-trong-java/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/p/hello-world-v%C3%A0-c%C3%A1ch-bi%C3%AAn-d%E1%BB%8Bch-trong-java/</guid>
-        <description>&lt;img src="http://localhost:53462/my-hugo-blog-/images/featured-2.svg" alt="Featured image of post Hello World và Cách biên dịch trong Java" /&gt;&lt;h2 id=&#34;viết-chương-trình-hello-world-với-java&#34;&gt;Viết chương trình Hello World với Java
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/hello-world-v%C3%A0-c%C3%A1ch-bi%C3%AAn-d%E1%BB%8Bch-trong-java/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/my-hugo-blog-/images/featured-2.svg" alt="Featured image of post Hello World và Cách biên dịch trong Java" /&gt;&lt;h2 id=&#34;viết-chương-trình-hello-world-với-java&#34;&gt;Viết chương trình Hello World với Java
 &lt;/h2&gt;&lt;p&gt;Chương trình &lt;strong&gt;Hello World&lt;/strong&gt; là ví dụ kinh điển và đơn giản nhất để bắt đầu với bất kỳ ngôn ngữ lập trình nào. Trong Java, đây là cách để bạn làm quen với cú pháp cơ bản và quy trình biên dịch.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 Mục tiêu:&lt;/strong&gt; Tạo chương trình Java đầu tiên, hiểu cấu trúc cơ bản và cách biên dịch&lt;/p&gt;
@@ -829,11 +829,11 @@
         </item>
         <item>
         <title>Hello World với JavaScript (Trình duyệt &amp; Node.js)</title>
-        <link>http://localhost:53462/my-hugo-blog-/p/hello-world-v%E1%BB%9Bi-javascript-tr%C3%ACnh-duy%E1%BB%87t-node.js/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/hello-world-v%E1%BB%9Bi-javascript-tr%C3%ACnh-duy%E1%BB%87t-node.js/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/p/hello-world-v%E1%BB%9Bi-javascript-tr%C3%ACnh-duy%E1%BB%87t-node.js/</guid>
-        <description>&lt;img src="http://localhost:53462/my-hugo-blog-/images/featured-6.svg" alt="Featured image of post Hello World với JavaScript (Trình duyệt &amp; Node.js)" /&gt;&lt;h2 id=&#34;-viết-chương-trình-hello-world-với-javascript&#34;&gt;🚀 Viết chương trình Hello World với JavaScript
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/hello-world-v%E1%BB%9Bi-javascript-tr%C3%ACnh-duy%E1%BB%87t-node.js/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/my-hugo-blog-/images/featured-6.svg" alt="Featured image of post Hello World với JavaScript (Trình duyệt &amp; Node.js)" /&gt;&lt;h2 id=&#34;-viết-chương-trình-hello-world-với-javascript&#34;&gt;🚀 Viết chương trình Hello World với JavaScript
 &lt;/h2&gt;&lt;p&gt;Chương trình &lt;strong&gt;Hello World&lt;/strong&gt; trong JavaScript rất đơn giản và linh hoạt. Không giống Java, JavaScript không cần biên dịch và có thể chạy trực tiếp trong trình duyệt hoặc trên server với Node.js.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 Mục tiêu:&lt;/strong&gt; Học cách viết và chạy JavaScript trên cả trình duyệt và Node.js&lt;/p&gt;
@@ -1738,11 +1738,11 @@
         </item>
         <item>
         <title>Khai báo biến và scope trong JavaScript</title>
-        <link>http://localhost:53462/my-hugo-blog-/p/khai-b%C3%A1o-bi%E1%BA%BFn-v%C3%A0-scope-trong-javascript/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/khai-b%C3%A1o-bi%E1%BA%BFn-v%C3%A0-scope-trong-javascript/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/p/khai-b%C3%A1o-bi%E1%BA%BFn-v%C3%A0-scope-trong-javascript/</guid>
-        <description>&lt;img src="http://localhost:53462/my-hugo-blog-/images/featured-8.svg" alt="Featured image of post Khai báo biến và scope trong JavaScript" /&gt;&lt;h2 id=&#34;biến-và-khai-báo-biến-trong-javascript&#34;&gt;Biến và khai báo biến trong JavaScript
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/khai-b%C3%A1o-bi%E1%BA%BFn-v%C3%A0-scope-trong-javascript/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/my-hugo-blog-/images/featured-8.svg" alt="Featured image of post Khai báo biến và scope trong JavaScript" /&gt;&lt;h2 id=&#34;biến-và-khai-báo-biến-trong-javascript&#34;&gt;Biến và khai báo biến trong JavaScript
 &lt;/h2&gt;&lt;p&gt;Trong JavaScript, biến dùng để lưu trữ dữ liệu. Có 3 cách khai báo biến:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;var&lt;/code&gt;: Khai báo biến toàn cục hoặc cục bộ, có thể bị hoisting (kéo lên đầu hàm).&lt;/li&gt;
@@ -1793,11 +1793,11 @@
         </item>
         <item>
         <title>Kiểu dữ liệu cơ bản trong Java</title>
-        <link>http://localhost:53462/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-c%C6%A1-b%E1%BA%A3n-trong-java/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-c%C6%A1-b%E1%BA%A3n-trong-java/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-c%C6%A1-b%E1%BA%A3n-trong-java/</guid>
-        <description>&lt;img src="http://localhost:53462/my-hugo-blog-/images/featured-3.svg" alt="Featured image of post Kiểu dữ liệu cơ bản trong Java" /&gt;&lt;h2 id=&#34;các-kiểu-dữ-liệu-cơ-bản-trong-java&#34;&gt;Các kiểu dữ liệu cơ bản trong Java
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-c%C6%A1-b%E1%BA%A3n-trong-java/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/my-hugo-blog-/images/featured-3.svg" alt="Featured image of post Kiểu dữ liệu cơ bản trong Java" /&gt;&lt;h2 id=&#34;các-kiểu-dữ-liệu-cơ-bản-trong-java&#34;&gt;Các kiểu dữ liệu cơ bản trong Java
 &lt;/h2&gt;&lt;p&gt;Java hỗ trợ nhiều kiểu dữ liệu cơ bản (primitive types):&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1876,11 +1876,11 @@
         </item>
         <item>
         <title>Kiểu dữ liệu trong JavaScript và ép kiểu</title>
-        <link>http://localhost:53462/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-javascript-v%C3%A0-%C3%A9p-ki%E1%BB%83u/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-javascript-v%C3%A0-%C3%A9p-ki%E1%BB%83u/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-javascript-v%C3%A0-%C3%A9p-ki%E1%BB%83u/</guid>
-        <description>&lt;img src="http://localhost:53462/my-hugo-blog-/images/featured-7.svg" alt="Featured image of post Kiểu dữ liệu trong JavaScript và ép kiểu" /&gt;&lt;h2 id=&#34;các-kiểu-dữ-liệu-cơ-bản-trong-javascript&#34;&gt;Các kiểu dữ liệu cơ bản trong JavaScript
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-javascript-v%C3%A0-%C3%A9p-ki%E1%BB%83u/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/my-hugo-blog-/images/featured-7.svg" alt="Featured image of post Kiểu dữ liệu trong JavaScript và ép kiểu" /&gt;&lt;h2 id=&#34;các-kiểu-dữ-liệu-cơ-bản-trong-javascript&#34;&gt;Các kiểu dữ liệu cơ bản trong JavaScript
 &lt;/h2&gt;&lt;p&gt;JavaScript có 7 kiểu dữ liệu cơ bản:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Number (Số)&lt;/li&gt;
@@ -1937,11 +1937,11 @@
         </item>
         <item>
         <title>Lập trình hướng đối tượng (OOP) trong Java</title>
-        <link>http://localhost:53462/my-hugo-blog-/p/l%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-oop-trong-java/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/l%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-oop-trong-java/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/p/l%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-oop-trong-java/</guid>
-        <description>&lt;img src="http://localhost:53462/my-hugo-blog-/images/featured-4.svg" alt="Featured image of post Lập trình hướng đối tượng (OOP) trong Java" /&gt;&lt;h2 id=&#34;lập-trình-hướng-đối-tượng-oop-trong-java&#34;&gt;Lập trình hướng đối tượng (OOP) trong Java
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/l%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-oop-trong-java/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/my-hugo-blog-/images/featured-4.svg" alt="Featured image of post Lập trình hướng đối tượng (OOP) trong Java" /&gt;&lt;h2 id=&#34;lập-trình-hướng-đối-tượng-oop-trong-java&#34;&gt;Lập trình hướng đối tượng (OOP) trong Java
 &lt;/h2&gt;&lt;p&gt;Java hỗ trợ đầy đủ các tính năng của lập trình hướng đối tượng: Lớp, đối tượng, kế thừa, đóng gói, đa hình và trừu tượng.&lt;/p&gt;
 &lt;h3 id=&#34;các-khái-niệm-cơ-bản&#34;&gt;Các khái niệm cơ bản:
 &lt;/h3&gt;&lt;ul&gt;
@@ -2015,11 +2015,11 @@
         </item>
         <item>
         <title>Tổng quan về JavaScript</title>
-        <link>http://localhost:53462/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/</guid>
-        <description>&lt;img src="http://localhost:53462/my-hugo-blog-/images/featured-5.svg" alt="Featured image of post Tổng quan về JavaScript" /&gt;&lt;h2 id=&#34;tổng-quan-về-javascript&#34;&gt;Tổng quan về JavaScript
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/my-hugo-blog-/images/featured-5.svg" alt="Featured image of post Tổng quan về JavaScript" /&gt;&lt;h2 id=&#34;tổng-quan-về-javascript&#34;&gt;Tổng quan về JavaScript
 &lt;/h2&gt;&lt;p&gt;JavaScript là &lt;strong&gt;ngôn ngữ lập trình phổ biến nhất thế giới&lt;/strong&gt;, được phát triển bởi &lt;strong&gt;Brendan Eich&lt;/strong&gt; tại Netscape vào năm 1995 trong vòng chỉ &lt;strong&gt;10 ngày&lt;/strong&gt;! Ban đầu, JavaScript chỉ được thiết kế để tạo hiệu ứng động đơn giản trên trình duyệt, nhưng hiện nay đã phát triển thành một &lt;strong&gt;ecosystem toàn diện&lt;/strong&gt; cho phát triển ứng dụng hiện đại.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 Fun Fact:&lt;/strong&gt; JavaScript ban đầu được đặt tên là &amp;ldquo;Mocha&amp;rdquo;, sau đó đổi thành &amp;ldquo;LiveScript&amp;rdquo;, và cuối cùng là &amp;ldquo;JavaScript&amp;rdquo; để tận dụng sự phổ biến của Java lúc bấy giờ.&lt;/p&gt;
@@ -2403,11 +2403,11 @@
         </item>
         <item>
         <title>Lập trình mạng là gì? Học lập trình mạng cần ngôn ngữ gì</title>
-        <link>http://localhost:53462/my-hugo-blog-/p/lap-trinh-mang-la-gi/</link>
+        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/lap-trinh-mang-la-gi/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:53462/my-hugo-blog-/p/lap-trinh-mang-la-gi/</guid>
-        <description>&lt;img src="http://localhost:53462/my-hugo-blog-/images/featured-lap-trinh-mang.svg" alt="Featured image of post Lập trình mạng là gì? Học lập trình mạng cần ngôn ngữ gì" /&gt;&lt;p&gt;Lập trình mạng đang là nghề rất &amp;ldquo;hot&amp;rdquo; trong thời điểm hiện nay. Bởi các nhà tuyển dụng đang có nhu cầu tuyển dụng số lượng lớn các ứng viên có kiến thức và kỹ năng về lĩnh vực này. Vậy lập trình mạng là gì và cần ngôn ngữ gì? Hãy cùng &lt;strong&gt;Note4Net&lt;/strong&gt; tìm hiểu ngay nhé!&lt;/p&gt;
+        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/lap-trinh-mang-la-gi/</guid>
+        <description>&lt;img src="https://maiyeuminhem123.github.io/my-hugo-blog-/images/featured-lap-trinh-mang.svg" alt="Featured image of post Lập trình mạng là gì? Học lập trình mạng cần ngôn ngữ gì" /&gt;&lt;p&gt;Lập trình mạng đang là nghề rất &amp;ldquo;hot&amp;rdquo; trong thời điểm hiện nay. Bởi các nhà tuyển dụng đang có nhu cầu tuyển dụng số lượng lớn các ứng viên có kiến thức và kỹ năng về lĩnh vực này. Vậy lập trình mạng là gì và cần ngôn ngữ gì? Hãy cùng &lt;strong&gt;Note4Net&lt;/strong&gt; tìm hiểu ngay nhé!&lt;/p&gt;
 &lt;h2 id=&#34;mục-lục&#34;&gt;Mục lục
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#m%e1%ba%a1ng-v%c3%a0-l%e1%ba%adp-tr%c3%acnh-m%e1%ba%a1ng-l%c3%a0-g%c3%ac&#34; &gt;Mạng và lập trình mạng là gì?&lt;/a&gt;&lt;/li&gt;

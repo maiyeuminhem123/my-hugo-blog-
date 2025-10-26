@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>JavaScript on Blog Lập Trình Java &amp; JavaScript</title>
-        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/categories/javascript/</link>
+        <link>http://localhost:49397/my-hugo-blog-/categories/javascript/</link>
         <description>Recent content in JavaScript on Blog Lập Trình Java &amp; JavaScript</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>vi</language>
         <copyright>Nguyễn Văn Thuận</copyright>
-        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://maiyeuminhem123.github.io/my-hugo-blog-/categories/javascript/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:49397/my-hugo-blog-/categories/javascript/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hàm, closure và bất đồng bộ trong JavaScript</title>
-        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/h%C3%A0m-closure-v%C3%A0-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-trong-javascript/</link>
+        <link>http://localhost:49397/my-hugo-blog-/p/h%C3%A0m-closure-v%C3%A0-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-trong-javascript/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/h%C3%A0m-closure-v%C3%A0-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-trong-javascript/</guid>
-        <description>&lt;img src="https://maiyeuminhem123.github.io/images/featured-9.svg" alt="Featured image of post Hàm, closure và bất đồng bộ trong JavaScript" /&gt;&lt;h2 id=&#34;hàm-trong-javascript&#34;&gt;Hàm trong JavaScript
+        <guid>http://localhost:49397/my-hugo-blog-/p/h%C3%A0m-closure-v%C3%A0-b%E1%BA%A5t-%C4%91%E1%BB%93ng-b%E1%BB%99-trong-javascript/</guid>
+        <description>&lt;img src="http://localhost:49397/my-hugo-blog-/images/featured-9.svg" alt="Featured image of post Hàm, closure và bất đồng bộ trong JavaScript" /&gt;&lt;h2 id=&#34;hàm-trong-javascript&#34;&gt;Hàm trong JavaScript
 &lt;/h2&gt;&lt;p&gt;Hàm (function) là khối mã thực hiện một nhiệm vụ cụ thể, giúp tái sử dụng code.&lt;/p&gt;
 &lt;h3 id=&#34;cách-khai-báo-hàm&#34;&gt;Cách khai báo hàm:
 &lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -96,11 +96,11 @@
         </item>
         <item>
         <title>Hello World với JavaScript (Trình duyệt &amp; Node.js)</title>
-        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/hello-world-v%E1%BB%9Bi-javascript-tr%C3%ACnh-duy%E1%BB%87t-node.js/</link>
+        <link>http://localhost:49397/my-hugo-blog-/p/hello-world-v%E1%BB%9Bi-javascript-tr%C3%ACnh-duy%E1%BB%87t-node.js/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/hello-world-v%E1%BB%9Bi-javascript-tr%C3%ACnh-duy%E1%BB%87t-node.js/</guid>
-        <description>&lt;img src="https://maiyeuminhem123.github.io/images/featured-6.svg" alt="Featured image of post Hello World với JavaScript (Trình duyệt &amp; Node.js)" /&gt;&lt;h2 id=&#34;viết-chương-trình-hello-world-với-javascript&#34;&gt;Viết chương trình Hello World với JavaScript
+        <guid>http://localhost:49397/my-hugo-blog-/p/hello-world-v%E1%BB%9Bi-javascript-tr%C3%ACnh-duy%E1%BB%87t-node.js/</guid>
+        <description>&lt;img src="http://localhost:49397/my-hugo-blog-/images/featured-6.svg" alt="Featured image of post Hello World với JavaScript (Trình duyệt &amp; Node.js)" /&gt;&lt;h2 id=&#34;viết-chương-trình-hello-world-với-javascript&#34;&gt;Viết chương trình Hello World với JavaScript
 &lt;/h2&gt;&lt;p&gt;Chương trình Hello World trong JavaScript rất đơn giản, có thể chạy trực tiếp trên trình duyệt hoặc Node.js:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -140,11 +140,11 @@
         </item>
         <item>
         <title>Khai báo biến và scope trong JavaScript</title>
-        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/khai-b%C3%A1o-bi%E1%BA%BFn-v%C3%A0-scope-trong-javascript/</link>
+        <link>http://localhost:49397/my-hugo-blog-/p/khai-b%C3%A1o-bi%E1%BA%BFn-v%C3%A0-scope-trong-javascript/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/khai-b%C3%A1o-bi%E1%BA%BFn-v%C3%A0-scope-trong-javascript/</guid>
-        <description>&lt;img src="https://maiyeuminhem123.github.io/images/featured-8.svg" alt="Featured image of post Khai báo biến và scope trong JavaScript" /&gt;&lt;h2 id=&#34;biến-và-khai-báo-biến-trong-javascript&#34;&gt;Biến và khai báo biến trong JavaScript
+        <guid>http://localhost:49397/my-hugo-blog-/p/khai-b%C3%A1o-bi%E1%BA%BFn-v%C3%A0-scope-trong-javascript/</guid>
+        <description>&lt;img src="http://localhost:49397/my-hugo-blog-/images/featured-8.svg" alt="Featured image of post Khai báo biến và scope trong JavaScript" /&gt;&lt;h2 id=&#34;biến-và-khai-báo-biến-trong-javascript&#34;&gt;Biến và khai báo biến trong JavaScript
 &lt;/h2&gt;&lt;p&gt;Trong JavaScript, biến dùng để lưu trữ dữ liệu. Có 3 cách khai báo biến:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;var&lt;/code&gt;: Khai báo biến toàn cục hoặc cục bộ, có thể bị hoisting (kéo lên đầu hàm).&lt;/li&gt;
@@ -195,11 +195,11 @@
         </item>
         <item>
         <title>Kiểu dữ liệu trong JavaScript và ép kiểu</title>
-        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-javascript-v%C3%A0-%C3%A9p-ki%E1%BB%83u/</link>
+        <link>http://localhost:49397/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-javascript-v%C3%A0-%C3%A9p-ki%E1%BB%83u/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-javascript-v%C3%A0-%C3%A9p-ki%E1%BB%83u/</guid>
-        <description>&lt;img src="https://maiyeuminhem123.github.io/images/featured-7.svg" alt="Featured image of post Kiểu dữ liệu trong JavaScript và ép kiểu" /&gt;&lt;h2 id=&#34;các-kiểu-dữ-liệu-cơ-bản-trong-javascript&#34;&gt;Các kiểu dữ liệu cơ bản trong JavaScript
+        <guid>http://localhost:49397/my-hugo-blog-/p/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u-trong-javascript-v%C3%A0-%C3%A9p-ki%E1%BB%83u/</guid>
+        <description>&lt;img src="http://localhost:49397/my-hugo-blog-/images/featured-7.svg" alt="Featured image of post Kiểu dữ liệu trong JavaScript và ép kiểu" /&gt;&lt;h2 id=&#34;các-kiểu-dữ-liệu-cơ-bản-trong-javascript&#34;&gt;Các kiểu dữ liệu cơ bản trong JavaScript
 &lt;/h2&gt;&lt;p&gt;JavaScript có 7 kiểu dữ liệu cơ bản:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Number (Số)&lt;/li&gt;
@@ -256,11 +256,11 @@
         </item>
         <item>
         <title>Tổng quan về JavaScript</title>
-        <link>https://maiyeuminhem123.github.io/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/</link>
+        <link>http://localhost:49397/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://maiyeuminhem123.github.io/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/</guid>
-        <description>&lt;img src="https://maiyeuminhem123.github.io/images/featured-5.svg" alt="Featured image of post Tổng quan về JavaScript" /&gt;&lt;h2 id=&#34;tổng-quan-về-javascript&#34;&gt;Tổng quan về JavaScript
+        <guid>http://localhost:49397/my-hugo-blog-/p/t%E1%BB%95ng-quan-v%E1%BB%81-javascript/</guid>
+        <description>&lt;img src="http://localhost:49397/my-hugo-blog-/images/featured-5.svg" alt="Featured image of post Tổng quan về JavaScript" /&gt;&lt;h2 id=&#34;tổng-quan-về-javascript&#34;&gt;Tổng quan về JavaScript
 &lt;/h2&gt;&lt;p&gt;JavaScript là &lt;strong&gt;ngôn ngữ lập trình phổ biến nhất thế giới&lt;/strong&gt;, được phát triển bởi &lt;strong&gt;Brendan Eich&lt;/strong&gt; tại Netscape vào năm 1995 trong vòng chỉ &lt;strong&gt;10 ngày&lt;/strong&gt;! Ban đầu, JavaScript chỉ được thiết kế để tạo hiệu ứng động đơn giản trên trình duyệt, nhưng hiện nay đã phát triển thành một &lt;strong&gt;ecosystem toàn diện&lt;/strong&gt; cho phát triển ứng dụng hiện đại.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;💡 Fun Fact:&lt;/strong&gt; JavaScript ban đầu được đặt tên là &amp;ldquo;Mocha&amp;rdquo;, sau đó đổi thành &amp;ldquo;LiveScript&amp;rdquo;, và cuối cùng là &amp;ldquo;JavaScript&amp;rdquo; để tận dụng sự phổ biến của Java lúc bấy giờ.&lt;/p&gt;
